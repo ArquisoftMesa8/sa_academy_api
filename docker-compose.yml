@@ -9,7 +9,7 @@ services:
       COURSES_URL: '3.229.229.156'
       COURSES_PORT: '3000'
       COURSES_ENTRY: 'courses-ms/resources/courses'
-      LOGIN_URL: '3.229.229.156:'
+      LOGIN_URL: '3.229.229.156'
       LOGIN_PORT: '3001'
       LOGIN_ENTRY: 'students-ms/resources/auth/'
     ports:

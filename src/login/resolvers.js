@@ -14,8 +14,10 @@ const resolvers = {
 			if(res){
 				if(res === 'LDAPException found'){
 					return res
+				}else if(res === 'false'){
+					return 'Usuario no autenticado.'
 				}else{
-					return 'Usuario autenticado.'
+					return 'Usuario autenticado'
 				}				
 			}else{
 				return 'Usuario no autenticado.'
